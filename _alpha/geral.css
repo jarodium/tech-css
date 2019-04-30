@@ -1,0 +1,14 @@
+/* CSS PARA O WEBSITE */
+.classe a {
+    color:#000;
+}
+
+.selector .muito + a {
+    color:#000;
+}
+
+.selector .muito > a {
+    color:#000;
+}
+
+/*COLAGEM*/

@@ -1,3 +1,38 @@
+.rounded {
+	border-radius: .25rem!important
+}
+
+.rounded-top {
+	border-top-left-radius: .25rem!important
+}
+
+.rounded-right,
+.rounded-top {
+	border-top-right-radius: .25rem!important
+}
+
+.rounded-bottom,
+.rounded-right {
+	border-bottom-right-radius: .25rem!important
+}
+
+.rounded-bottom,
+.rounded-left {
+	border-bottom-left-radius: .25rem!important
+}
+
+.rounded-left {
+	border-top-left-radius: .25rem!important
+}
+
+.rounded-circle {
+	border-radius: 50%!important
+}
+
+.rounded-0 {
+	border-radius: 0!important
+}
+/*
 .align-baseline {
 	vertical-align: baseline!important
 }
@@ -60,41 +95,6 @@
 
 .border-left-0 {
 	border-left: 0!important
-}
-
-.rounded {
-	border-radius: .25rem!important
-}
-
-.rounded-top {
-	border-top-left-radius: .25rem!important
-}
-
-.rounded-right,
-.rounded-top {
-	border-top-right-radius: .25rem!important
-}
-
-.rounded-bottom,
-.rounded-right {
-	border-bottom-right-radius: .25rem!important
-}
-
-.rounded-bottom,
-.rounded-left {
-	border-bottom-left-radius: .25rem!important
-}
-
-.rounded-left {
-	border-top-left-radius: .25rem!important
-}
-
-.rounded-circle {
-	border-radius: 50%!important
-}
-
-.rounded-0 {
-	border-radius: 0!important
 }
 
 .clearfix:after {
@@ -1452,4 +1452,4 @@
 .img-fluid {
     max-width: 100%;
     height: auto;
-}
+}*/

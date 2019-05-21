@@ -1,0 +1,13 @@
+:root {
+    --btn-color: #000;
+    --btn-background-color: #fff;
+    --btn-border-radius: 0px;
+    --btn-border: 1px solid #000;
+    --btn-padding: 0.5em 1em;    
+    
+    --btn-hover-color: #fff;
+    --btn-hover-background-color: #000;
+    --btn-hover-border: 1px solid #000;
+
+    --btn-active-shadow: 0px 1px 4px 0px rgba(0,0,0,0.70);    
+}

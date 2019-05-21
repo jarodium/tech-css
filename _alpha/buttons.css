@@ -1,0 +1,59 @@
+.btn {
+    /* Structure */
+    display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: var(--btn-color);
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    box-sizing: border-box;
+    background: var(--btn-background-color);
+    border:var(--btn-border);
+    padding:var(--btn-padding);    
+    border-radius: var(--btn-border-radius);    
+    /* create a small space when buttons wrap on 2 lines */
+    margin: 2px 0;    
+}
+.btn:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+
+/* inverse colors on hover */
+.btn:hover {
+    color: var(--btn-hover-color);
+    border: var(--btn-hover-border);
+    background-color: var(--btn-hover-background-color);
+}
+
+/* Firefox: remove the inner border shown on focus */
+.btn::-moz-focus-inner {  border: none;   }
+
+/* make sure we have a visible focus ring */
+.btn:focus {
+    outline: none;
+    -webkit-box-shadow: var(--btn-active-shadow);
+    -moz-box-shadow: var(--btn-active-shadow);
+    box-shadow: var(--btn-active-shadow);
+}
+
+.btn[disabled] {
+    border:1px solid transparent;
+    background-color: #f2f2f2;
+    color:#a8a8a8;   
+    cursor:not-allowed;
+}
+
+.btn i {
+    font-size:0.85rem;
+    margin-right: 0.2rem;
+    /*padding:var(--btn-padding); */
+}
